@@ -3,6 +3,10 @@ Project developed by:
 David Mogollon Fernandez.
 Front End Dev.
 
+Functional Link to hosted website :
+
+http://minilink.es/3ic7
+
 Used tools:
 
 Gulp--

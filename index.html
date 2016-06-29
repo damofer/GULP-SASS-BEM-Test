@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+	 <link href="build/css/main.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<!-- ///////////////////////////////////////////////// -->
+
+<!--Index of Basic Structure:
+
+nav
+	nav__logo
+	nav__list
+		nav__list__item
+		nav__list__item--selected
+		nav__list__search
+			nav__list__search__ico
+
+banner
+	banner__img
+	banner__content
+		banner__content__title
+		banner__content__subtitle
+		banner__content__button
+
+secondNav
+	secondNav__list
+		secondNav__list__item
+	secondNav__social
+		secondNav__social__message
+		secondNav__social__icoList
+			secondNav__social__icoList__item
+
+content
+	content__list
+		content__list__item
+			content__list__item__title
+			content__list__item__description
+			content__list__item__media
+
+footer
+	footer__list
+		footer__list__section
+			footer__list__section__category
+			footer__list__section__subcategory
+
+	footer__copyrights
+ -->
+<!-- ///////////////////////////////////////////////// -->
+
+
+<body>
+<!-- NAV -->
+<header class="nav">
+	<div class="nav__logo">
+		<img src="img/logo.png"alt="">
+
+	</div>
+	<ul class="nav__list">
+		<li class="nav__list__item">
+			<a href="#">services</a>
+			<ul class="nav__list__item__submenu">
+				<li class="nav__submenu__item">
+					<a href="#">user experience</a>
+				</li>
+				<li class="nav__submenu__item">
+					<a href="#">graphic design</a>
+				</li>
+				<li class="nav__submenu__item">
+					<a href="#">development</a>
+				</li>
+			</ul>
+		</li>
+		<li class="nav__list__item">
+			<a href="#">software</a>
+		</li>
+		<li class="nav__list__item">
+			<a href="#">connect with us</a>
+		</li>
+
+		<!-- <li class="nav__list__item--selected"></li> -->
+
+
+		<li class="nav__list__item nav__list__search">
+			<div class="nav__list__search__item">
+				<input type="search" class="nav__list__search__box" placeholder="Search..." />
+				<button class="nav__list__search__button"><i class="nav__list__search__ico"></i></button>
+			</div>
+		</li>
+
+	</ul>
+
+</header>
+<!-- END OF NAV -->
+<!-- BANNER -->
+<div class="banner slider">
+	<div class="banner__arrow"><i class="banner__arrow__left"></i></div>
+	<div class="banner__arrow"><i class="banner__arrow__right"></i></div>
+
+	<!-- //First Slide -->
+	<div class="banner__img ">
+		<img class="banner__img--employee"src="img/banner-employee.png" alt="">
+		<img class="banner__img--leftGrid"src="img/banner-grid-left.png" alt="">
+		<img class="banner__img--rightGrid"src="img/banner-grid-right.png" alt="">
+	</div>
+
+	<div class="banner__content ">
+		<h1 class="banner__content__title"> <span>custome</span> websites</h1>
+		<div class="banner__content__subtitle">(1 click from you)</div>
+		<button class="banner__content__button">learn more<i></i></button>
+
+	</div>
+	<!-- //Second Slide -->
+	<div class="banner__img hidden">
+		<img class="banner__img--employee"src="img/banner-employee-second.png" alt="">
+		<img class="banner__img--leftGrid"src="img/banner-grid-left-second.png" alt="">
+		<img class="banner__img--rightGrid"src="img/banner-grid-right-second.png" alt="">
+	</div>
+
+	<div class="banner__content hidden ">
+		<h1 class="banner__content__title"> <span>second slide</span> spreadsheets</h1>
+		<div class="banner__content__subtitle">(so that explains the smile!)</div>
+		<button class="banner__content__button">learn more<i></i></button>
+
+	</div>
+</div>
+<!-- END OF BANNER -->
+<!-- SECOND NAV -->
+<div class="secondNav">
+	<ul class="secondNav__list">
+		<li class="secondNav__list__item"><a href="#">agencies</a></li>
+		<li class="secondNav__list__item"><a href="#">publishers</a></li>
+		<li class="secondNav__list__item"><a href="#">about us</a></li>
+		<li class="secondNav__list__item"><a href="#">learning center</a></li>
+		<li class="secondNav__list__item"><a href="#">blog</a></li>
+		<li class="secondNav__list__item"><a href="#">news</a></li>
+	</ul>
+	<div class="secondNav__social">
+		<div class="secondNav__social__message">Follow us:</div>
+		<ul class="secondNav__social__icoList">
+			<li class="secondNav__social__item"><i class ="secondNav__social__item--twitter"></i></li>
+			<li class="secondNav__social__item"><i class ="secondNav__social__item--facebook"></i></li>
+			<li class="secondNav__social__item"><i class ="secondNav__social__item--youtube"></i></li>
+			<li class="secondNav__social__item"><i class ="secondNav__social__item--linkedin"></i></li>
+			<li class="secondNav__social__item"><i class ="secondNav__social__item--gplus"></i></li>
+			<li class="secondNav__social__item"><i class ="secondNav__social__item--rss"></i></li>
+		</ul>
+	</div>
+</div>
+<!-- END OF SECOND NAV -->
+<!-- CONTENT -->
+<div class="content">
+	<ul class="content__list">
+		<li class="content__list__item">
+			<h2 class="content__list__item__title">Learn</h2>
+			<div class="content__list__item__media"><img src="img/content/testimonial.png"  alt=""></div>
+			<p class="content__list__item__description"><b>SED QUIS</b>, LIGULA EST</p>
+
+
+		</li>
+
+		<li class="content__list__item">
+
+			<h2 class="content__list__item__title">Test It</h2>
+			<div class="content__list__item__media"><img src="img/content/seeit.png"  alt=""></div>
+			<p class="content__list__item__description"><b>Sed quis ligula est, vitae suscipit sem. Integer orci tortor, tempus eget rhoncus quis, vehicula et elit. Mauris iaculis scelerisque lacus.</p>
+
+
+		</li>
+
+		<li class="content__list__item">
+
+			<h2 class="content__list__item__title">Use It</h2>
+			<div class="content__list__item__media"><img src="img/content/tryit.png"  alt=""></div>
+			<p class="content__list__item__description">Sed quis ligula est, vitae suscipit sem. Integer orci tortor, tempus eget rhoncus quis, vehicula et elit. Mauris iaculis scelerisque lacus.</p>
+		</li>
+	</ul>
+</div>
+<!-- END OF CONTENT -->
+<!-- FOOTER -->
+<div class="footer">
+	<hr class="footer__crossbar">
+	<ul class="footer__info">
+		<li class="footer__info__section">
+			<h3 class="footer__info__section__category">Services</h3>
+			<ul class="footer__info__section__subcategory">
+				<li class="footer__info__section__subcategory__item"><a href="#">Media Strategy</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Media planning & Buying</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Campaign Management & Analysis</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Contract Fulfillment & Billing</a></li>
+			</ul>
+		</li>
+		<li class="footer__info__section">
+			<h3 class="footer__info__section__category">Software</h3>
+			<ul class="footer__info__section__subcategory">
+				<li class="footer__info__section__subcategory__item"><a href="#">Planner</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Insight</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Finance</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">TBD</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">RTB</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Support</a></li>
+			</ul>
+		</li>
+		<li class="footer__info__section">
+			<h3 class="footer__info__section__category">Publishers</h3>
+			<ul class="footer__info__section__subcategory">
+				<li class="footer__info__section__subcategory__item"><a href="#">Brand Exchange</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Publisher Logistics</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Become a Publisher Partner</a></li>
+			</ul>
+		</li>
+		</li>
+		<li class="footer__info__section">
+			<h3 class="footer__info__section__category">Learning Center</h3>
+			<ul class="footer__info__section__subcategory">
+				<li class="footer__info__section__subcategory__item"><a href="#">Case Studies</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">White Papers</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Creative Showcase</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Video Library</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Blog</a></li>
+			</ul>
+		</li>
+		<li class="footer__info__section">
+			<h3 class="footer__info__section__category">Why Centro</h3>
+			<ul class="footer__info__section__subcategory">
+				<li class="footer__info__section__subcategory__item"><a href="#">Subpage 1</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Subpage 2</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Subpage 3</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Subpage 4</a></li>
+			</ul>
+		</li>
+		<li class="footer__info__section">
+			<h3 class="footer__info__section__category">More Centro</h3>
+			<ul class="footer__info__section__subcategory">
+				<li class="footer__info__section__subcategory__item"><a href="#">About</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">News</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Careers</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Primary Policy</a></li>
+				<li class="footer__info__section__subcategory__item"><a href="#">Conect with us</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="footer__copyrights">
+		<h4>@Copyright 2016 - All rights reserved</h4>
+	</div>
+</div>
+<!-- END OF FOOTER -->
+
+<script type="text/javascript" src="build/js/slider.js"></script>
+</body>
+</html>

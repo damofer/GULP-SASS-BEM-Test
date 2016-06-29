@@ -1,0 +1,52 @@
+//GLOBAL
+$main-font:'Hammersmith One', sans-serif;
+$main-pink-color:#ec4399;
+$main-darkblue:#004964;
+$main-lightblue:#00aedb;
+
+$mobile: "(max-width:799px)";
+$tablet: "(min-width: 800px) and (max-width: 1249px)";
+$desktop: "(min-width: 1250px)";
+@mixin center() {
+ width:100%;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+// BODY
+// BODY-COLORS
+$body-bgColor:white;
+// HEADER
+// HEADER-DIM
+$header-max-height: 123px;
+// BANNER
+// BANNER-DIM
+$banner-max-height: 430px;
+// MAIN-NAV
+// MAIN-NAV-DIM
+$nav-menu-fontsize:20px;
+$nav-submenu-fontsize:16px;
+// MAIN-NAV-COLORS
+$nav-menu-itemColor:#004964;
+$nav-submenu-boxColor: #eceeef;
+
+// BANNER
+// BANNER-COLORS
+$banner-title-blue: #00aedb;
+// SECOND-NAV
+// SECOND-NAV-DIM
+$secondNav-max-height: 60px;
+// SECOND-NAV-COLORS
+$secondNav-bgColor: #004964;
+// CONTENT
+// CONTENT-DIM
+$content-max-height: 290px;
+$content-margin-vertical: 32px;
+// FOOTER
+// FOOTER-DIM
+$footer-max-height: 340px;
+$footer-info-height:284px;
+$footer-copyright-height:56px;
+//FOOTER-COLORS
+$footer-info-bgColor:#ebebeb;
+$footer-copyright-bgColor:#494949;

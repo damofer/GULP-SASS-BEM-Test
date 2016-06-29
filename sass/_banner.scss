@@ -1,0 +1,130 @@
+.banner{
+	position: relative;
+	height: $banner-max-height;
+	overflow:hidden;
+	@media #{$mobile}{
+
+	 display:none
+	}
+}
+
+
+// Slider animation and rotation
+.banner__img{
+
+opacity:1;
+-webkit-transition: opacity 1.0s linear 0s;
+transition: opacity 1.0s linear 0s;
+
+}
+
+
+.hidden{display:none};
+.unhidden{display:block;}
+
+
+/////////////////////////////////
+.banner__img--employee{
+	margin-left: 14.3%;
+	position: relative;
+
+	z-index:1;
+
+}
+.banner__img--leftGrid{
+position: absolute;
+left:24%;
+bottom:0;
+@media #{$tablet}{
+	display:none;
+}
+
+
+}
+.banner__img--rightGrid{
+    position: absolute;
+    bottom: 0;
+    right: 6%;
+
+@media #{$tablet}{
+	display:none;
+}
+
+}
+.banner__arrow{
+
+	@media #{$tablet}{
+	display:none;
+}
+}
+.banner__arrow__left{
+	position:absolute;
+	top:10em;
+	left:5em;
+	content: url(../../img/banner-arrow-left.png);
+}
+.banner__arrow__right{
+	position:absolute;
+	top:10em;
+	right:5em;
+	content: url(../../img/banner-arrow-right.png);
+
+}
+.banner__content{
+	font-weight: 100;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-align: right;
+    width: 500px;
+	position:absolute;
+	right: 12%;
+	top: 3em;
+	z-index:999;
+
+
+
+
+
+
+
+}
+
+.banner__content__title{
+	font-size: 50px;
+	transform:scaleY(1.2);
+	text-align: right;
+
+	line-height: 0.9em;
+	font-weight: 100;
+	color: $nav-menu-itemColor;
+	span{
+		font-family: sans-serif;
+		font-weight: 800;
+		color:$banner-title-blue;}
+}
+.banner__content__subtitle{
+
+line-height: 2.5em;
+color:$banner-title-blue;
+
+}
+
+.banner__content__button{
+text-transform: uppercase;
+font-size: 17px;
+color:white;
+
+background-color: $main-pink-color;
+vertical-align: middle;
+width: 165px;
+
+padding:0.5em;
+border:none;
+ i{
+	content: url(../../img/banner-button-ico.png);
+	margin: auto 0.5em;
+	height: 13px;
+ }
+
+ &:hover{background-color:black}
+}
